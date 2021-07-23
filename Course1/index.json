@@ -1,24 +1,12 @@
 {
     "noindex": true,
-    "title": "Run Commands Automatically",
-    "description": "Automatically run commands in the foreground and background when a scenario starts",
+    "title": "Windows 8.1,
+    "description": "Automatically run Windows 8.1 x86 QEMU 4 CPU / 3GB RAM",
     "details": {
         "steps": [
             {
                 "title": "Step 1",
                 "text": "step1.md"
-            },
-            {
-                "title": "Step 2",
-                "courseData": "step2-background.sh",
-                "code": "step2-foreground.sh",
-                "text": "step2.md"
-            },
-            {
-                "title": "Step 3",
-                "courseData": "step3-background.sh",
-                "code": "step3-foreground.sh",
-                "text": "step3.md"
             }
         ],
         "intro": {
