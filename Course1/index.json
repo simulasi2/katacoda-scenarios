@@ -34,6 +34,6 @@
         "uilayout": "terminal"
     },
     "backend": {
-        "imageid": "rhel8-4"
+        "imageid": "centos7"
     }
 }
