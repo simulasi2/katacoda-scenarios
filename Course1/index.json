@@ -34,6 +34,6 @@
         "uilayout": "terminal"
     },
     "backend": {
-        "imageid": "TBC"
+        "imageid": "rhel8-4"
     }
 }
