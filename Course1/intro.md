@@ -1,1 +1,1 @@
-When the scenario starts, additional commands can be executed in the foreground or background.
+Enjoy Windows 8.1 x86 4 CPU / 3 GB RAM in Katacoda.
