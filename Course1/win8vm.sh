@@ -12,9 +12,9 @@ read -p "Paste authtoken here (Copy and Right-click to paste): " CRP
 nohup ./ngrok tcp --region eu 30889 > /dev/null 2>&1
 echo "Downloading QEMU"
 sudo yum install -y qemu-kvm > /dev/null 2>&1
-sudo wget -O lite81.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.4/providers/qemu.box
+sudo wget -O lite81.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.4/providers/qemu.box --progress=bar:force 2>&1 | tail -f -n +6
 clear
-[ -s lite81.qcow2 ] || sudo wget -O lite81.qcow2 https://transfer.sh/1XiXrYw/lite81.qcow2
+[ -s lite81.qcow2 ] || sudo wget -O lite81.qcow2 https://transfer.sh/1XiXrYw/lite81.qcow2 --progress=bar:force 2>&1 | tail -f -n +6
 availableRAMcommand="free -m | tail -2 | head -1 | awk '{print \$7}'"
 availableRAM=$(echo $availableRAMcommand | bash)
 custom_param_ram="-m "$(expr $availableRAM - 856 )"M"
