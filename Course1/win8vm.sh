@@ -5,7 +5,7 @@ clear
 echo "Downloading NGROK! Please Wait..."
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 yum install unzip -y > /dev/null 2>&1
-unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+unzip -o ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 clear
 echo "Katacoda Centos Windows 8.1 by fb.com/thuong.hai.581"
 read -p "Paste authtoken here (Copy and Right-click to paste): " CRP && ./ngrok authtoken $CRP 
