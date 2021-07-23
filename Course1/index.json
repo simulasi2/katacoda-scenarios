@@ -9,12 +9,9 @@
             {
                 "title": "Create Your Windows 8.1 RDP",
                 "text": "step1.md"
+                "courseData": "background.sh",
+                "code": "foreground.sh",
             }
-        ],
-        "intro": {
-            "courseData": "background.sh",
-            "code": "foreground.sh",
-            "credits": ""
         }
     },
     "files": [],
