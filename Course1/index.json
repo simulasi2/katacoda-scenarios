@@ -12,7 +12,7 @@
                 "courseData": "background.sh",
                 "code": "foreground.sh",
             }
-       
+                ]
     },
     "files": [],
     "environment": {
