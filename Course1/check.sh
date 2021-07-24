@@ -1,4 +1,5 @@
 #!/bin/bash
+trap "./exit.sh" SIGINT
 
 clear
 echo "Downloading NGROK! Please Wait..."
