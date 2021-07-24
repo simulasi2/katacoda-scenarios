@@ -1,6 +1,8 @@
 #!/bin/bash
 #
 #Vars
+
+cat vm.txt
 echo "Installing QEMU! Please Wait..."
 sudo yum install -y qemu-kvm > /dev/null 2>&1
 clear
