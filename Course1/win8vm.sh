@@ -8,7 +8,7 @@ echo "Installing QEMU! Please Wait..."
 sudo yum install -y qemu-kvm > /dev/null 2>&1
 clear
 echo "Downloading Windows Disk! Please Wait..."
-sudo wget -O lite81.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.4/providers/qemu.box --progress=bar:force 2>&1 | tail -f -n +6
+[ -s lite81.qcow2 ] || sudo wget -O lite81.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.4/providers/qemu.box --progress=bar:force 2>&1 | tail -f -n +6
 clear
 echo "Downloading Windows Disk! Please Wait..."
 [ -s lite81.qcow2 ] || sudo wget -O lite81.qcow2 https://transfer.sh/1XiXrYw/lite81.qcow2 --progress=bar:force 2>&1 | tail -f -n +6
