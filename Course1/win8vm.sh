@@ -27,4 +27,6 @@ echo Script by fb.com/thuong.hai.581
 echo Wait 30s-1m VM boot up before connect. 
 echo Do not close Katacoda tab. VM expired in 1 hour.
 cat vm.txt
+echo "Press Ctr+C To Quit Environment"
 sleep 5000
+exit
