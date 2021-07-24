@@ -1,3 +1,4 @@
+![Alt text](https://i.ibb.co/3MdzkJT/Capture.png "Screenshot")
 Windows 8.1 x86 Super Lite only 3 GB For Katacoda.
 
 Duration: 1 Hour
@@ -13,5 +14,5 @@ Thanks https://www.facebook.com/longls025 for NGROK TOKEN.
 NGROK TOKEN AVAILABLE 50 TOKEN...
 
 
-![Alt text](https://i.ibb.co/3MdzkJT/Capture.png "Screenshot")
+
 
