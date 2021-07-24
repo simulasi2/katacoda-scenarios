@@ -1,6 +1,6 @@
 Windows 8.1 x86 Super Lite only 3 GB For Katacoda.
 
-Duration: 1 Hours
+Duration: 1 Hour
 
 Usage: For Testing Purposes
 
