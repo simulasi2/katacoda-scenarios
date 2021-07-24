@@ -1,3 +1,4 @@
+#!/bin/bash
 ./ngrok authtoken 1va2wZzLJOdwfoUa21JWg9h1Hys_3mEQP1ujzwEGhacbFQSdv
 nohup ./ngrok tcp --region eu 30889 &>/dev/null &
 sleep 0.2
