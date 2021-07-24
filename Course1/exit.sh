@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exit
+sleep 1 && exit
