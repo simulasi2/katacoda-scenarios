@@ -1,4 +1,4 @@
-![Alt text](https://i.ibb.co/3MdzkJT/Capture.png "Screenshot")
+![Alt text](https://i.ibb.co/PTD9pJT/Capture2.png "Screenshot")
 
 Windows 7 x86 Super Lite only 3 GB For Katacoda.
 
