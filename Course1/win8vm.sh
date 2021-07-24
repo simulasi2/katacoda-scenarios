@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 #Vars
+trap "./exit.sh" SIGINT
 
 cat vm.txt
 echo "Installing QEMU! Please Wait..."
