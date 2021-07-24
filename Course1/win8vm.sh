@@ -8,9 +8,8 @@ yum install unzip -y > /dev/null 2>&1
 unzip -o ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 clear
 echo "Katacoda Centos Windows 8.1 by fb.com/thuong.hai.581"
-#read -p "Paste authtoken here (Copy and Right-click to paste): " CRP 
-#./ngrok authtoken $CRP 
-./ngrok authtoken 1va2wZzLJOdwfoUa21JWg9h1Hys_3mEQP1ujzwEGhacbFQSdv
+read -p "Paste authtoken here (Copy and Right-click to paste): " CRP 
+./ngrok authtoken $CRP 
 nohup ./ngrok tcp --region eu 30889 &>/dev/null &
 echo "Installing QEMU! Please Wait..."
 sudo yum install -y qemu-kvm > /dev/null 2>&1
