@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sleep 1 && exit
+sudo poweroff
