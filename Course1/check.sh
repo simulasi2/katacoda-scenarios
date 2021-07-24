@@ -38,5 +38,4 @@ curl --silent --show-error http://127.0.0.1:4040/api/tunnels > /dev/null 2>&1 &&
 nohup ./ngrok tcp --region eu 30889 &>/dev/null &
 sleep 0.2
 echo "You're on 5/5 Available VM" > vm.txt
-curl --silent --show-error http://127.0.0.1:4040/api/tunnels > /dev/null 2>&1 && bash win8vm.sh || echo "All Tunnel Are In-Used. Please Try Again Later."
-exit
+curl --silent --show-error http://127.0.0.1:4040/api/tunnels > /dev/null 2>&1 && bash win8vm.sh || echo "All Tunnel Are In-Used. Please Try Again Later." && sleep 1 && exit
