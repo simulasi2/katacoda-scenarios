@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo poweroff
+shutdown now
