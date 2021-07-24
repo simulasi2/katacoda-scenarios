@@ -13,7 +13,7 @@ Thanks https://www.facebook.com/longls025 for NGROK TOKEN.
 NGROK TOKEN AVAILABLE 50 TOKEN...
 
 <pre>
-![Katacoda Logo](./assets/Capture.png)
+![Katacoda Logo](./assets/Capture.PNG)
 </pre>
 
-![Katacoda Logo](./assets/Capture.png)
+![Katacoda Logo](./assets/Capture.PNG)
