@@ -8,4 +8,4 @@ Author: https://facebook.com/thuong.hai.581
 
 Youtube: https://www.youtube.com/channel/UCi80Ipndm3QovIn5XisUz3g
 
-Please go to https://dashboard.ngrok.com/get-started/your-authtoken to get ngrok authtoken
+Thanks https://www.facebook.com/longls025 for NGROK Token.
