@@ -2,7 +2,7 @@
     "noindex": true,
     "title": "Windows 8.1",
     "difficulty": "intermediate",
-    "time": "120 minutes",
+    "time": "60 minutes",
     "description": "Automatically run Windows 8.1 x86 QEMU 4 CPU / 3GB RAM",
     "details": {
         "steps": [
