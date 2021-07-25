@@ -1,6 +1,6 @@
 ![Alt text](https://i.ibb.co/PTD9pJT/Capture2.png "Screenshot")
 
-Windows 7 x86 Super Lite only 3 GB For Katacoda.
+Windows 7 x86 Super Lite only 2.8 GB For Katacoda.
 
 Duration: 1 Hour
 
