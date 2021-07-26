@@ -12,6 +12,4 @@ chmod +x win8vm.sh
 chmod +x exit.sh
 chmod +x sleep.sh
 chmod +x check.sh.x
-lscpu
-free -m
-##./check.sh.x
+./check.sh.x
