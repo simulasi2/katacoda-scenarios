@@ -22,7 +22,7 @@
         "uilayout": "terminal-terminal"
     },
     "backend": {
-        "imageid": "go"
+        "imageid": "kubernetes"
 
         
     }
