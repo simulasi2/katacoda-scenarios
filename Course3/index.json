@@ -24,6 +24,6 @@
     "backend": {
         "imageid": "go",
         "imageid": "ubuntu",
-        "imageid": "portworx-kubernetes-running:1.13"
+        "imageid": "portworx-kubernetes:1.13"
     }
 }
