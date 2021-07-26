@@ -22,6 +22,9 @@
         "uilayout": "terminal-terminal"
     },
     "backend": {
+        "imageid": "go",
+        "imageid": "ubuntu",
         "imageid": "kubernetes-cluster"
+        
     }
 }
