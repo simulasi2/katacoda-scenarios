@@ -22,7 +22,6 @@
         "uilayout": "terminal"
     },
     "backend": {
-        "imageid": "go",
-        "imageid": "ubuntu",
+        "imageid": "go"
     }
 }
