@@ -6,6 +6,7 @@ trap "./exit.sh" SIGINT
 cat vm.txt
 echo Preparing Environment...
 sudo apt-get update -y > /dev/null 2>&1
+sleep 100
 echo "Installing QEMU! Please Wait..."
 sudo apt-get install -y qemu-kvm > /dev/null 2>&1
 clear
