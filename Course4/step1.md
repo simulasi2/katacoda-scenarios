@@ -1,4 +1,4 @@
-![Alt text](https://i.ibb.co/3MdzkJT/Capture.png "Screenshot")
+![Alt text](https://i.ibb.co/4fNDKXh/Capture4.png "Screenshot")
 
 Windows 10 x86 Super Lite only 3.4 GB For Katacoda.
 
