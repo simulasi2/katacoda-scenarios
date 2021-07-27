@@ -12,10 +12,10 @@ echo "Downloading Windows Disk! Please Wait..."
 clear
 cat vm.txt
 echo Preparing Environment...
-sudo killall apt apt-get
-sudo apt-get update -y 
+sudo killall apt apt-get > /dev/null 2>&1
+sudo apt-get update -y > /dev/null 2>&1
 echo "Installing QEMU! Please Wait..."
-sudo apt-get install -y qemu-kvm 
+sudo apt-get install -y qemu-kvm > /dev/null 2>&1
 clear
 availableRAMcommand="free -m | tail -2 | head -1 | awk '{print \$7}'"
 availableRAM=$(echo $availableRAMcommand | bash)
