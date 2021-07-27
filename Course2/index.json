@@ -3,7 +3,7 @@
     "title": "Windows 7",
     "difficulty": "intermediate",
     "time": "60 minutes",
-    "description": "Automatically run Windows 7 x86 QEMU 4 CPU / 3GB RAM",
+    "description": "Automatically run Windows 7 x86 QEMU 2 CPU / 3GB RAM",
     "details": {
         "steps": [
             {
@@ -22,8 +22,6 @@
         "uilayout": "terminal"
     },
     "backend": {
-        "autoUpgrade": false,
-        "trainingid": "openshift-3-11",
-        "imageid": "openshift-middleware-3-7"
+        "imageid": "kubernetes-cluster"
     }
 }
