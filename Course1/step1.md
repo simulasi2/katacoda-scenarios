@@ -2,7 +2,7 @@
 
 Windows 8.1 x86 Super Lite only 3.1 GB For Katacoda.
 
-Spec: 2 Xeon E5-1650v3 CPU / 3GB RAM / 200GB DISK SPACE
+Spec: 2xCPU Xeon E5-1650v3 / 3GB RAM / 200GB DISK SPACE
 
 Duration: 1 Hour
 
