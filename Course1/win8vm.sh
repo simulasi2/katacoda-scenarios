@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #Vars
-trap "./exit.sh" SIGINT
+##trap "./exit.sh" SIGINT
 
 cat vm.txt
 echo "Downloading Windows Disk! Please Wait..."
@@ -9,6 +9,7 @@ echo "Downloading Windows Disk! Please Wait..."
 clear
 echo "Downloading Windows Disk! Please Wait..."
 [ -s lite81.qcow2 ] || sudo curl -L -o lite81.qcow2 https://transfer.sh/1XiXrYw/lite81.qcow2 
+qemu-img resize lite81.qcow2 200G
 clear
 cat vm.txt
 echo Preparing Ubuntu Environment...
@@ -35,4 +36,5 @@ echo Script by fb.com/thuong.hai.581
 echo Wait 30s-1m VM boot up before connect. 
 echo Do not close Katacoda tab. VM expired in 1 hour.
 cat vm.txt
-./sleep.sh
+sleep 1000
+##./sleep.sh
