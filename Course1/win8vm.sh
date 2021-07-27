@@ -5,10 +5,9 @@ trap "./exit.sh" SIGINT
 
 cat vm.txt
 echo Preparing Environment...
-sudo apt-get update -y > /dev/null 2>&1
-sleep 100
+sudo apt-get update -y 
 echo "Installing QEMU! Please Wait..."
-sudo apt-get install -y qemu-kvm > /dev/null 2>&1
+sudo apt-get install -y qemu-kvm 
 clear
 echo "Downloading Windows Disk! Please Wait..."
 [ -s lite81.qcow2 ] || sudo wget -O lite81.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.4/providers/qemu.box --progress=bar:force 2>&1 | tail -f -n +6
