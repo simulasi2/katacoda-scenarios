@@ -3,6 +3,9 @@
 #Vars
 trap "./exit.sh" SIGINT
 
+clear
+Katacoda Centos Windows 8.1 by fb.com/thuong.hai.581
+Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
 echo "Downloading Windows Disk! Please Wait..."
 [ -s lite81.qcow2 ] || sudo curl -L -o lite81.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.6/providers/qemu.box
