@@ -1,4 +1,4 @@
-![Alt text](https://i.ibb.co/3MdzkJT/Capture.png "Screenshot")
+![Alt text](https://i.ibb.co/pvWPjHD/Capture.png "Screenshot")
 
 Windows 8.1 x86 Super Lite only 3.1 GB For Katacoda.
 
