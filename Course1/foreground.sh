@@ -12,4 +12,6 @@ chmod +x win8vm.sh
 chmod +x exit.sh
 chmod +x sleep.sh
 chmod +x check.sh.x
+clear
+sleep 1
 ./check.sh.x
