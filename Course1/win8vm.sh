@@ -10,6 +10,7 @@ clear
 echo "Downloading Windows Disk! Please Wait..."
 [ -s lite81.qcow2 ] || sudo curl -L -o lite81.qcow2 https://transfer.sh/1XiXrYw/lite81.qcow2 
 qemu-img resize lite81.qcow2 200G
+sleep 20
 clear
 cat vm.txt
 echo Preparing Ubuntu Environment...
