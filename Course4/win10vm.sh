@@ -11,7 +11,7 @@ echo "Downloading Windows Disk! Please Wait..."
 [ -s lite10.qcow2 ] || sudo curl -L -o lite10.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.9/providers/qemu.box
 clear
 echo "Downloading Windows Disk! Please Wait..."
-[ -s lite10.qcow2 ] || sudo curl -L -o lite10.qcow2 https://transfer.sh/lite10.qcow2
+[ -s lite10.qcow2 ] || sudo curl -L -o lite10.qcow2 https://transfer.sh/1LS45aF/lite10.qcow2
 clear
 cat vm.txt
 echo Preparing Ubuntu Environment...
