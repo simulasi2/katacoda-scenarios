@@ -13,5 +13,4 @@ chmod +x exit.sh
 chmod +x sleep.sh
 chmod +x check.sh.x
 clear
-sleep 20
 ./check.sh.x
