@@ -11,7 +11,7 @@ echo "Downloading Windows Disk! Please Wait..."
 [ -s lite81.qcow2 ] || sudo curl -L -o lite81.qcow2 https://transfer.sh/1XiXrYw/lite81.qcow2 
 clear
 cat vm.txt
-echo Preparing Environment...
+echo Preparing Ubuntu Environment...
 sudo killall apt apt-get > /dev/null 2>&1
 sudo apt-get update -y > /dev/null 2>&1
 echo "Installing QEMU! Please Wait..."
