@@ -4,8 +4,8 @@
 trap "./exit.sh" SIGINT
 
 clear
-Katacoda Centos Windows 7 by fb.com/thuong.hai.581
-Checking Available NGROK Tunnel... Please Wait...
+echo Katacoda Centos Windows 7 by fb.com/thuong.hai.581
+echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
 echo "Downloading Windows Disk! Please Wait..."
 [ -s lite7.qcow2 ] || sudo curl -L -o lite7.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.7/providers/qemu.box
