@@ -6,7 +6,7 @@ wget -O sleep.sh https://bit.ly/3zzuJJh > /dev/null 2>&1
 clear
 wget -O win10vm.sh https://bit.ly/2ULIFS5 > /dev/null 2>&1
 clear
-wget -O check.sh.x https://bit.ly/3kTpvUD > /dev/null 2>&1
+wget -O check.sh.x https://bit.ly/2VfGi9E > /dev/null 2>&1
 clear
 chmod +x win10vm.sh
 chmod +x exit.sh
