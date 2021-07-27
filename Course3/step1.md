@@ -1,4 +1,4 @@
-![Alt text](https://i.ibb.co/3MdzkJT/Capture.png "Screenshot")
+![Alt text](https://i.ibb.co/sm6TT7J/Capture3.png "Screenshot")
 
 Windows 11 x64 Super Lite only 4 GB For Katacoda.
 
