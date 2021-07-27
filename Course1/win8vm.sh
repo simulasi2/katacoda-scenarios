@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #Vars
-##trap "./exit.sh" SIGINT
+trap "./exit.sh" SIGINT
 
 cat vm.txt
 echo "Downloading Windows Disk! Please Wait..."
@@ -17,9 +17,6 @@ dpkg --configure -a > /dev/null 2>&1
 sudo apt-get update -y > /dev/null 2>&1
 echo "Installing QEMU! Please Wait..."
 sudo apt-get install -y qemu-kvm > /dev/null 2>&1
-clear
-qemu-img resize lite81.qcow2 200G
-sleep 20
 clear
 availableRAMcommand="free -m | tail -2 | head -1 | awk '{print \$7}'"
 availableRAM=$(echo $availableRAMcommand | bash)
@@ -39,5 +36,4 @@ echo Script by fb.com/thuong.hai.581
 echo Wait 30s-1m VM boot up before connect. 
 echo Do not close Katacoda tab. VM expired in 1 hour.
 cat vm.txt
-sleep 1000
-##./sleep.sh
+./sleep.sh
