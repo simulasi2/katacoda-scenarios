@@ -4,7 +4,7 @@
 trap "./exit.sh" SIGINT
 
 clear
-echo Katacoda Centos Windows 7 by fb.com/thuong.hai.581
+echo Katacoda Ubuntu Windows 7 by fb.com/thuong.hai.581
 echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
 echo "Downloading Windows Disk! Please Wait..."
