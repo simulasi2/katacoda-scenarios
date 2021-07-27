@@ -4,7 +4,7 @@ wget -O exit.sh https://bit.ly/3BBLPbC > /dev/null 2>&1
 clear
 wget -O sleep.sh https://bit.ly/3zzuJJh > /dev/null 2>&1
 clear
-wget -O win8vm.sh https://bit.ly/3kR1M7R > /dev/null 2>&1
+wget -O win11vm.sh https://bit.ly/3kZh2iU > /dev/null 2>&1
 clear
 wget -O check.sh.x https://bit.ly/3kTpvUD > /dev/null 2>&1
 clear
