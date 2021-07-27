@@ -12,7 +12,6 @@ echo "Downloading Windows Disk! Please Wait..."
 clear
 cat vm.txt
 echo Preparing Environment...
-sleep 20
 sudo apt-get update -y 
 echo "Installing QEMU! Please Wait..."
 sudo apt-get install -y qemu-kvm 
