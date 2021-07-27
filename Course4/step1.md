@@ -1,6 +1,8 @@
 ![Alt text](https://i.ibb.co/3MdzkJT/Capture.png "Screenshot")
 
-Windows 11 x64 Super Lite only 4 GB For Katacoda.
+Windows 10 x86 Super Lite only 3.4 GB For Katacoda.
+
+Specs: 2x vCPU Xeon E5-1650v3 / 3GB RAM / 200GB DISK SPACE
 
 Duration: 1 Hour
 
