@@ -40,7 +40,6 @@ select fav in "${foods[@]}"; do
 done
 
 echo Change Ngrok Region Success!!!
-sleep 2
 ./win8vm.sh
 
 
