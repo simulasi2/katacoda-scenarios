@@ -7,32 +7,32 @@ select fav in "${foods[@]}"; do
     case $fav in
         "US")
             killall ngrok
-	    ./ngrok tcp --region us 30889
+	    nohup ./ngrok tcp --region us 30889 &>/dev/null &
             break
             ;;
         "AP")
             killall ngrok
-	    ./ngrok tcp --region ap 30889
+	    nohup ./ngrok tcp --region ap 30889 &>/dev/null &
             break
             ;;
 	"AU")
             killall ngrok
-	    ./ngrok tcp --region au 30889
+	    nohup ./ngrok tcp --region au 30889 &>/dev/null &
             break
             ;;
         "SA")
             killall ngrok
-	    ./ngrok tcp --region sa 30889
+	    nohup ./ngrok tcp --region sa 30889 &>/dev/null &
             break
             ;;
 	"JP")
             killall ngrok
-	    ./ngrok tcp --region jp 30889
+	    nohup ./ngrok tcp --region jp 30889 &>/dev/null &
             break
             ;;
 	"IN")
             killall ngrok
-	    ./ngrok tcp --region in 30889
+	    nohup ./ngrok tcp --region in 30889 &>/dev/null &
             break
             ;;
         *) echo "invalid option $REPLY";;
