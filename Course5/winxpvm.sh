@@ -4,7 +4,7 @@
 trap "./exit.sh" SIGINT
 
 clear
-echo Katacoda Ubuntu Windows 11 by fb.com/thuong.hai.581
+echo Katacoda Ubuntu Windows XP by fb.com/thuong.hai.581
 echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
 echo "Downloading Windows Disk! Please Wait..."
@@ -29,7 +29,7 @@ nohup sudo qemu-system-x86_64 -nographic -net nic -net user,hostfwd=tcp::30889-:
 clear
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels || ./check.sh.x
 clear
-echo "Katacoda Ubuntu Windows 11 by fb.com/thuong.hai.581"
+echo "Katacoda Ubuntu Windows XP by fb.com/thuong.hai.581"
 echo Your RDP IP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo User: Administrator
