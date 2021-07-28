@@ -1,14 +1,14 @@
 #!/bin/bash
 clear
-echo Katacoda Ubuntu Windows 8.1 by fb.com/thuong.hai.581
+echo Katacoda Ubuntu Windows XP by fb.com/thuong.hai.581
 
 PS3='Choose your NGROK REGION you want to change (type 1, 2, 3, 4, 5, 6 then Enter): '
-foods=("US" "AP" "AU" "SA" "JP" "IN")
+foods=("EU" "AP" "AU" "SA" "JP" "IN")
 select fav in "${foods[@]}"; do
     case $fav in
-        "US")
+        "EU")
             killall ngrok
-	    nohup ./ngrok tcp --region us 30889 &>/dev/null &
+	    nohup ./ngrok tcp --region eu 30889 &>/dev/null &
             break
             ;;
         "AP")
@@ -41,6 +41,6 @@ select fav in "${foods[@]}"; do
 done
 
 echo Change Ngrok Region Success!!!
-./win8vm.sh
+./winxpvm.sh
 
 
