@@ -3,7 +3,7 @@
     "title": "Windows XP",
     "difficulty": "intermediate",
     "time": "60 minutes",
-    "description": "Automatically run Windows XP x86 QEMU 1 CPU / 3GB RAM",
+    "description": "Automatically run Windows XP x86 QEMU 2 CPU / 3GB RAM",
     "details": {
         "steps": [
             {
