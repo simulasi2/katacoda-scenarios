@@ -16,11 +16,11 @@ clear
 cat vm.txt
 echo Preparing Ubuntu Environment...
 sudo killall apt apt-get > /dev/null 2>&1
+sleep 1
 dpkg --configure -a > /dev/null 2>&1
 sudo apt-get update -y > /dev/null 2>&1
 echo "Installing QEMU! Please Wait..."
 sudo apt-get install -y qemu-kvm > /dev/null 2>&1
-dpkg -l | grep qemu-kvm || sudo killall apt apt-get & dpkg --configure -a && sudo apt-get update -y && sudo apt-get install -y qemu-kvm
 clear
 availableRAMcommand="free -m | tail -2 | head -1 | awk '{print \$7}'"
 availableRAM=$(echo $availableRAMcommand | bash)
