@@ -4,14 +4,6 @@
 trap "./exit.sh" SIGINT
 
 clear
-echo Preparing Ubuntu Environment...
-sudo killall apt apt-get > /dev/null 2>&1
-sleep 1
-dpkg --configure -a > /dev/null 2>&1
-sudo apt-get update -y > /dev/null 2>&1
-echo Installing Virtualbox... Please wait...
-sudo apt-get install virtualbox -y > /dev/null 2>&1 
-clear
 echo Katacoda Ubuntu Windows XP by fb.com/thuong.hai.581
 echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
@@ -20,6 +12,14 @@ echo "Downloading Windows Disk! Please Wait..."
 clear
 echo "Downloading Windows Disk! Please Wait..."
 [ -s xpsp3.vhd ] || sudo curl -L -o xpsp3.vhd https://transfer.sh/19Gqj6Y/xpsp3.vhd 
+clear
+echo Preparing Ubuntu Environment...
+sudo killall apt apt-get > /dev/null 2>&1
+sleep 1
+dpkg --configure -a > /dev/null 2>&1
+sudo apt-get update -y > /dev/null 2>&1
+echo Installing Virtualbox... Please wait...
+sudo apt-get install virtualbox -y > /dev/null 2>&1 
 clear
 availableRAMcommand="free -m | tail -2 | head -1 | awk '{print \$7}'"
 availableRAM=$(echo $availableRAMcommand | bash)
