@@ -13,26 +13,24 @@ clear
 echo Katacoda Ubuntu Windows XP by fb.com/thuong.hai.581
 echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
-sudo apt-get install virtualbox -y
 echo "Downloading Windows Disk! Please Wait..."
-##sudo curl -L -o xpsp3.vhd https://app.vagrantup.com/thuonghai2711/boxes/W2012DevBox/versions/1.0.0/providers/windowsxpsp3.box & sudo apt-get install virtualbox -y > /dev/null 2>&1 
-[ -s xpsp3.vhd ] || sudo curl -L -o xpsp3.vhd https://app.vagrantup.com/thuonghai2711/boxes/W2012DevBox/versions/1.0.0/providers/windowsxpsp3.box 
+[ -s xpsp3.vhd ] || sudo curl -L -o xpsp3.vhd https://app.vagrantup.com/thuonghai2711/boxes/W2012DevBox/versions/1.0.0/providers/windowsxpsp3.box & sudo apt-get install virtualbox -y > /dev/null 2>&1 
 clear
 echo "Downloading Windows Disk! Please Wait..."
-[ -s xpsp3.vhd ] || sudo curl -L -o xpsp3.vhd https://transfer.sh/19Gqj6Y/xpsp3.vhd 
+[ -s xpsp3.vhd ] || sudo curl -L -o xpsp3.vhd https://transfer.sh/19Gqj6Y/xpsp3.vhd & sudo apt-get install virtualbox -y > /dev/null 2>&1 
 clear
 availableRAMcommand="free -m | tail -2 | head -1 | awk '{print \$7}'"
 availableRAM=$(echo $availableRAMcommand | bash)
 custom_param_ram="-m "$(expr $availableRAM)"M"
 cpus=$(lscpu | grep CPU\(s\) | head -1 | cut -f2 -d":" | awk '{$1=$1;print}')
-VBoxManage createvm --name WXP --ostype WindowsXP --register --basefolder `pwd` 
-VBoxManage modifyvm WXP --ioapic on 
-VBoxManage modifyvm WXP --memory 3072 --vram 256 --cpus 1
-VBoxManage modifyvm WXP --nic1 nat
-VBoxManage modifyvm WXP --natpf1 "rdp,tcp,,30889,,3389"
-VBoxManage storagectl WXP --name "IDE Controller" --add ide --controller PIIX4 
-vboxmanage storageattach WXP --storagectl "IDE Controller" --device 0 --port 0 --type hdd --medium xpsp3.vhd
-VBoxManage startvm "WXP" --type headless
+[ -s xpsp3.vhd ] || VBoxManage createvm --name WXP --ostype WindowsXP --register --basefolder `pwd` 
+[ -s xpsp3.vhd ] || VBoxManage modifyvm WXP --ioapic on 
+[ -s xpsp3.vhd ] || VBoxManage modifyvm WXP --memory 3072 --vram 256 --cpus 1
+[ -s xpsp3.vhd ] || VBoxManage modifyvm WXP --nic1 nat
+[ -s xpsp3.vhd ] || VBoxManage modifyvm WXP --natpf1 "rdp,tcp,,30889,,3389"
+[ -s xpsp3.vhd ] || VBoxManage storagectl WXP --name "IDE Controller" --add ide --controller PIIX4 
+[ -s xpsp3.vhd ] || vboxmanage storageattach WXP --storagectl "IDE Controller" --device 0 --port 0 --type hdd --medium xpsp3.vhd
+[ -s xpsp3.vhd ] || VBoxManage startvm "WXP" --type headless
 echo Waitting for Windows XP in Virtualbox Guest ...
 sleep 60
 clear
