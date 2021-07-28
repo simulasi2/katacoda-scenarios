@@ -1,5 +1,6 @@
 #!/bin/bash
 
-trap "./exit.sh" SIGINT
-echo "To Quit Environment Press Ctrl+C"
+trap - SIGINT
+trap "./region.sh" SIGINT
+echo "To Change Ngrok Region Press Ctrl+C"
 sleep 5000
