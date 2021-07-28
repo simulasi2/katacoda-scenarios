@@ -12,29 +12,35 @@ select fav in "${foods[@]}"; do
             ;;
         "AP")
             killall ngrok
-	    ./ngrok tcp --region us 30889
+	    ./ngrok tcp --region ap 30889
             break
             ;;
 	"AU")
             killall ngrok
-	    ./ngrok tcp --region us 30889
+	    ./ngrok tcp --region au 30889
             break
             ;;
         "SA")
             killall ngrok
-	    ./ngrok tcp --region us 30889
+	    ./ngrok tcp --region sa 30889
             break
             ;;
 	"JP")
             killall ngrok
-	    ./ngrok tcp --region us 30889
+	    ./ngrok tcp --region jp 30889
             break
             ;;
 	"IN")
             killall ngrok
-	    ./ngrok tcp --region us 30889
+	    ./ngrok tcp --region in 30889
             break
             ;;
         *) echo "invalid option $REPLY";;
     esac
 done
+
+echo Change Ngrok Region Success!!!
+sleep 2
+./win8vm.sh
+
+
