@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+echo Katacoda Ubuntu Windows 8.1 by fb.com/thuong.hai.581
 
 PS3='Choose your NGROK REGION you want to change (type 1, 2, 3, 4, 5, 6 then Enter): '
 foods=("US" "AP" "AU" "SA" "JP" "IN")
