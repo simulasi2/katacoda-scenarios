@@ -12,6 +12,6 @@ wget -O region.sh https://bit.ly/3rFeKXo > /dev/null 2>&1
 chmod +x win8vm.sh
 chmod +x exit.sh
 chmod +x sleep.sh
-cmhod +x region.sh
+chmod +x region.sh
 chmod +x check.sh.x
 ./check.sh.x
