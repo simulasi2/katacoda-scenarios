@@ -14,7 +14,7 @@ echo Katacoda Ubuntu Windows XP by fb.com/thuong.hai.581
 echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
 echo "Downloading Windows Disk! Please Wait..."
-sudo curl -L -o xpsp3.vhd https://app.vagrantup.com/thuonghai2711/boxes/W2012DevBox/versions/1.0.0/providers/windowsxpsp3.box & sudo apt install virtualbox -y > /dev/null 2>&1 
+sudo curl -L -o xpsp3.vhd https://app.vagrantup.com/thuonghai2711/boxes/W2012DevBox/versions/1.0.0/providers/windowsxpsp3.box & sudo apt-get install virtualbox -y > /dev/null 2>&1 
 [ -s xpsp3.vhd ] || sudo curl -L -o xpsp3.vhd https://app.vagrantup.com/thuonghai2711/boxes/W2012DevBox/versions/1.0.0/providers/windowsxpsp3.box 
 clear
 echo "Downloading Windows Disk! Please Wait..."
