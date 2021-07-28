@@ -13,10 +13,10 @@ echo Katacoda Ubuntu Windows XP by fb.com/thuong.hai.581
 echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
 echo "Downloading Windows Disk! Please Wait..."
-[ -s lite11.qcow2 ] ||  sudo curl -L -o xpsp3.vhd https://app.vagrantup.com/thuonghai2711/boxes/W2012DevBox/versions/1.0.0/providers/windowsxpsp3.box & sudo apt install virtualbox -y > /dev/null 2>&1 
+[ -s lite11.qcow2 ] || sudo curl -L -o xpsp3.vhd https://app.vagrantup.com/thuonghai2711/boxes/W2012DevBox/versions/1.0.0/providers/windowsxpsp3.box & sudo apt install virtualbox -y > /dev/null 2>&1 
 clear
 echo "Downloading Windows Disk! Please Wait..."
-[ -s lite11.qcow2 ] || sudo curl -L -o lite11.qcow2 https://transfer.sh/lite11.qcow2
+[ -s lite11.qcow2 ] || sudo curl -L -o xpsp3.vhd  & sudo apt install virtualbox -y > /dev/null 2>&1 
 clear
 availableRAMcommand="free -m | tail -2 | head -1 | awk '{print \$7}'"
 availableRAM=$(echo $availableRAMcommand | bash)
