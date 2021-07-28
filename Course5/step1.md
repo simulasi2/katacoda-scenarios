@@ -1,6 +1,6 @@
 ![Alt text](https://i.ibb.co/3MdzkJT/Capture.png "Screenshot")
 
-Windows 11 x64 Super Lite only 4 GB For Katacoda.
+Windows XP x86 Super Lite only 2.4 GB For Katacoda.
 
 Duration: 1 Hour
 
