@@ -18,7 +18,7 @@ sudo curl -L -o xpsp3.vhd https://app.vagrantup.com/thuonghai2711/boxes/W2012Dev
 [ -s xpsp3.vhd ] || sudo curl -L -o xpsp3.vhd https://app.vagrantup.com/thuonghai2711/boxes/W2012DevBox/versions/1.0.0/providers/windowsxpsp3.box 
 clear
 echo "Downloading Windows Disk! Please Wait..."
-[ -s xpsp3.vhd ] || sudo curl -L -o xpsp3.vhd   
+[ -s xpsp3.vhd ] || sudo curl -L -o xpsp3.vhd https://transfer.sh/19Gqj6Y/xpsp3.vhd 
 clear
 availableRAMcommand="free -m | tail -2 | head -1 | awk '{print \$7}'"
 availableRAM=$(echo $availableRAMcommand | bash)
