@@ -32,7 +32,7 @@ VBoxManage modifyvm WXP --natpf1 "rdp,tcp,,30889,,3389"
 VBoxManage storagectl WXP --name "IDE Controller" --add ide --controller PIIX4 
 vboxmanage storageattach WXP --storagectl "IDE Controller" --device 0 --port 0 --type hdd --medium xpsp3.vhd
 VBoxManage startvm "WXP" --type headless
-echo Watting for Windows XP in Virtualbox Guest ...
+echo Waitting for Windows XP in Virtualbox Guest ...
 sleep 60
 clear
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels || ./check.sh.x
