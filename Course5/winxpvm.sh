@@ -37,8 +37,8 @@ echo Check done > check.txt
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels || ./check.sh.x
 clear
 echo Katacoda Ubuntu Windows XP by fb.com/thuong.hai.581
-echo Waitting for Windows XP in Virtualbox Guest ...
-sleep 60
+echo Waiting for Windows XP in Virtualbox Guest ...
+[ -s check.txt ] || sleep 60
 clear
 echo "Katacoda Ubuntu Windows XP by fb.com/thuong.hai.581"
 echo Your RDP IP Address:
