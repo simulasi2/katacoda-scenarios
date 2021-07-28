@@ -32,10 +32,10 @@ cpus=$(lscpu | grep CPU\(s\) | head -1 | cut -f2 -d":" | awk '{$1=$1;print}')
 [ -s check.txt ] || vboxmanage storageattach WXP --storagectl "IDE Controller" --device 0 --port 0 --type hdd --medium xpsp3.vhd
 [ -s check.txt ] || VBoxManage startvm "WXP" --type headless
 echo Check done > check.txt
+curl --silent --show-error http://127.0.0.1:4040/api/tunnels || ./check.sh.x
+clear
 echo Waitting for Windows XP in Virtualbox Guest ...
 sleep 60
-clear
-curl --silent --show-error http://127.0.0.1:4040/api/tunnels || ./check.sh.x
 clear
 echo "Katacoda Ubuntu Windows XP by fb.com/thuong.hai.581"
 echo Your RDP IP Address:
