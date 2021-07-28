@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 
 PS3='Choose your Windows Version you want to install (type 1, 2, 3 then Enter): '
 foods=("Windows-2012" "Windows-2022" "Windows-11")
