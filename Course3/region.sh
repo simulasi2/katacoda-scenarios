@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+trap "./exit.sh" SIGINT
 echo Katacoda Ubuntu Windows 11 by fb.com/thuong.hai.581
 
 PS3='Choose your NGROK REGION you want to change (type 1, 2, 3, 4, 5, 6 then Enter): '
