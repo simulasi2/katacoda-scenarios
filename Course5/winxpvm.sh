@@ -25,14 +25,14 @@ availableRAMcommand="free -m | tail -2 | head -1 | awk '{print \$7}'"
 availableRAM=$(echo $availableRAMcommand | bash)
 custom_param_ram="-m "$(expr $availableRAM)"M"
 cpus=$(lscpu | grep CPU\(s\) | head -1 | cut -f2 -d":" | awk '{$1=$1;print}')
-[ -s check.txt ] || VBoxManage createvm --name WXP --ostype WindowsXP --register --basefolder `pwd` 
-[ -s check.txt ] || VBoxManage modifyvm WXP --ioapic on 
-[ -s check.txt ] || VBoxManage modifyvm WXP --memory 3072 --vram 256 --cpus 1
-[ -s check.txt ] || VBoxManage modifyvm WXP --nic1 nat
-[ -s check.txt ] || VBoxManage modifyvm WXP --natpf1 "rdp,tcp,,30889,,3389"
-[ -s check.txt ] || VBoxManage storagectl WXP --name "IDE Controller" --add ide --controller PIIX4 
-[ -s check.txt ] || vboxmanage storageattach WXP --storagectl "IDE Controller" --device 0 --port 0 --type hdd --medium xpsp3.vhd
-[ -s check.txt ] || VBoxManage startvm "WXP" --type headless
+VBoxManage createvm --name WXP --ostype WindowsXP --register --basefolder `pwd` 
+VBoxManage modifyvm WXP --ioapic on 
+VBoxManage modifyvm WXP --memory 3072 --vram 256 --cpus 1
+VBoxManage modifyvm WXP --nic1 nat
+VBoxManage modifyvm WXP --natpf1 "rdp,tcp,,30889,,3389"
+VBoxManage storagectl WXP --name "IDE Controller" --add ide --controller PIIX4 
+Vboxmanage storageattach WXP --storagectl "IDE Controller" --device 0 --port 0 --type hdd --medium xpsp3.vhd
+VBoxManage startvm "WXP" --type headless
 echo Check done > check.txt
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels || ./check.sh.x
 clear
