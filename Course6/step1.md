@@ -8,6 +8,6 @@ REQUIDMENT ON THIS LAB:
  - Or Use https://transfer.sh/ For Upload .GZ
 
 STEP:
- - First, connect to ngrok account by using command 
+ - First, connect to ngrok account by using command `kubectl get nodes`{{execute}}
 
 
