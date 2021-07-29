@@ -6,3 +6,6 @@ REQUIDMENT ON THIS LAB:
  - Your Custom Windows ISO Link (On Google Drive or Direct Link)
  - Google Drive Storage At Least 10GB Free Space 
  - Or Use https://transfer.sh/ For Upload .GZ
+
+STEP:
+ - First, connect to ngrok account by using command 
