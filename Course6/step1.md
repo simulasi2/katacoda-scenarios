@@ -10,6 +10,7 @@ REQUIDMENT ON THIS LAB:
 
 STEP:
  - First, connect to ngrok account by using command `./ngrok.sh`{{execute}}
+ - Download your Windows ISO by using command `./download.sh`{{execute}}
  - 
 
 
