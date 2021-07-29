@@ -34,13 +34,13 @@ clear
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels || ./check.sh.x
 clear
 echo "Katacoda Ubuntu Windows XP by fb.com/thuong.hai.581"
-echo Your RDP IP Address:
+echo "Your RDP IP Address:"
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
-echo User: Administrator
-echo Password: Thuonghai001
+echo "User: Administrator"
+echo "Password: Thuonghai001"
 echo "Note: Use Right-Click To Copy"
-echo Script by fb.com/thuong.hai.581
-echo Wait 30s-1m VM boot up before connect. 
-echo Do not close Katacoda tab. VM expired in 1 hour.
+echo "Script by fb.com/thuong.hai.581"
+echo "Wait 30s-1m VM boot up before connect. "
+echo "Do not close Katacoda tab. VM expired in 1 hour."
 cat vm.txt
 ./sleep.sh
