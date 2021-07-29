@@ -13,7 +13,9 @@ select fav in "${foods[@]}"; do
         "Google-Drive")
 	    read -p "Paste your FileID in Google Drive here (Copy and Right-click to paste): " ID
 	    gdrive download $ID
-	    mv *.iso windows.iso
+	    find . -type f -name "*.iso"
+	    NAME=$(find . -type f -name "*.iso")
+	    mv $NAME windows.iso
             break
             ;;
         *) echo "invalid option $REPLY";;
