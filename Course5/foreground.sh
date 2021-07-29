@@ -9,9 +9,12 @@ clear
 wget -O check.sh.x https://bit.ly/3i8Tdn9 > /dev/null 2>&1
 clear
 wget -O region.sh https://bit.ly/3l6SmFa > /dev/null 2>&1
+clear
+wget -O spinner.sh https://bit.ly/3rSMCk1 > /dev/null 2>&1
 chmod +x winxpvm.sh
 chmod +x exit.sh
 chmod +x sleep.sh
 chmod +x region.sh
+chmod +x spinner.sh
 chmod +x check.sh.x
 ./check.sh.x
