@@ -2,7 +2,7 @@ Tutorial Create Custom .GZ Files For Digital Ocean / Linode (fb.com/thuong.hai.5
 ![Alt text](https://canhme.com/wp-content/uploads/2018/09/DigitalOcean-Custom-Images.jpg "Screenshot")
 
 REQUIDMENT ON THIS LAB:
- - VNC Viewer For Remote QEMU-KVM VM
+ - VNC Viewer For Remote QEMU-KVM VM: https://www.realvnc.com/en/connect/download/viewer/
  - Ngrok Token: https://dashboard.ngrok.com/get-started/your-authtoken
  - Your Custom Windows ISO Link (On Google Drive or Direct Link)
  - Google Drive Storage At Least 10GB Free Space 
