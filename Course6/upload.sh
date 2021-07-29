@@ -8,6 +8,7 @@ select fav in "${foods[@]}"; do
         "Transfer-sh")
             echo "Your GZ file are uploading... Take up to 5-10m."
             curl --upload-file ./WindowsCustom.gz https://transfer.sh/WindowsCustom.gz
+            echo " "
             echo "Upload done !!!"
             break
             ;;
