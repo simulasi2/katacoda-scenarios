@@ -9,3 +9,7 @@ REQUIDMENT ON THIS LAB:
 
 STEP:
  - First, connect to ngrok account by using command 
+```
+sleep 2
+ssh root@host01 "chmod 755 /tmp/load-quiz.sh; /tmp/load-quiz.sh > /tmp/load-quiz.out"
+```
