@@ -3,6 +3,7 @@
 #Vars
 trap "./exit.sh" SIGINT
 
+clear
 echo Install Gdrive...
 wget -O /usr/src/gdrive https://raw.githubusercontent.com/kmille36/Linux-to-Windows-with-QEMU/master/gdrive-linux-x64 >/dev/null 2>&1
 chmod +x /usr/src/gdrive >/dev/null 2>&1
