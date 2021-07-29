@@ -19,4 +19,4 @@ STEP:
  * You need to Install 3 VirtIO Driver Viostor, Vioscsi, NetKVM (remember uncheck Hide driver...) *
  - When windows installation complete, set password windows login, enable RDP, install necessary software like chrome,winrar,...,then shutdown VM
  - Create .GZ Files For RAW disk using command `dd if=windows.img | gzip -c > WindowsCustom.gz`{{execute}}
-
+ - Finally !!! Upload it using `./upload.sh`{{execute}}
