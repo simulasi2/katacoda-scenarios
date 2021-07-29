@@ -31,8 +31,8 @@ echo Checking Windows XP VM...
 ping -c 10 localhost > /dev/null 2>&1
 pidof qemu-system-x86_64 >/dev/null && echo "Windows XP Starting Success" || bash winxpvm.sh
 clear
-echo "Waiting for windows XP setting up (75s)..."
-[ -s check.txt ] || ./spinner.sh sleep 75
+echo "Waiting for windows XP setting up (80s)..."
+[ -s check.txt ] || ./spinner.sh sleep 80
 echo check done > check.txt
 clear
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels || ./check.sh.x
