@@ -11,7 +11,7 @@ echo "Downloading Windows Disk! Please Wait..."
 [ -s xpsp3.qcow2 ] || sudo curl -L -o xpsp3.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.1.0/providers/qemu.box
 clear
 echo "Downloading Windows Disk! Please Wait..."
-[ -s xpsp3.qcow2 ] || sudo curl -L -o xpsp3.qcow2 https://transfer.sh/1PlILLT/xpsp3.qcow2
+[ -s xpsp3.qcow2 ] || sudo curl -L -o xpsp3.qcow2 https://transfer.sh/17Yq6ls/xpsp3.qcow2
 clear
 cat vm.txt
 echo Preparing Ubuntu Environment...
