@@ -1,13 +1,13 @@
 {
     "noindex": true,
-    "title": "Windows 11",
+    "title": "Create Custom .GZ Files",
     "difficulty": "intermediate",
     "time": "60 minutes",
-    "description": "Automatically run Windows 11 x64 QEMU 2 CPU / 3GB RAM",
+    "description": "How to create your own .gz files for Digital Ocean / Linode",
     "details": {
         "steps": [
             {
-                "title": "Create Your Windows 11 RDP",
+                "title": "Create Your Own .GZ",
                 "text": "step1.md",
                 "courseData": "background.sh",
                 "code": "foreground.sh"
