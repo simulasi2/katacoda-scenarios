@@ -6,4 +6,6 @@ wget -O main.sh https://bit.ly/3ygtUVF > /dev/null 2>&1
 clear
 chmod +x main.sh
 chmod +x exit.sh
+clear
+sleep 1
 ./main.sh
