@@ -9,7 +9,7 @@ wget -O /usr/src/gdrive https://raw.githubusercontent.com/kmille36/Linux-to-Wind
 chmod +x /usr/src/gdrive >/dev/null 2>&1
 sudo install /usr/src/gdrive /usr/local/bin/gdrive >/dev/null 2>&1
 echo Install Ngrok ...
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip >/dev/null 2>&1 && unzip *.zip >/dev/null 2>&1
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip >/dev/null 2>&1 && unzip -o *.zip >/dev/null 2>&1
 echo Preparing Ubuntu Environment...
 sudo killall apt apt-get > /dev/null 2>&1
 sleep 1
