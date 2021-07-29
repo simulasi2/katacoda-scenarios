@@ -9,8 +9,9 @@ REQUIDMENT ON THIS LAB:
  - Or Use https://transfer.sh/ For Upload .GZ
 
 STEP:
- - First, connect to ngrok account by using command `./ngrok.sh`{{execute}}
+ - First, connect to ngrok account (for VNC) by using command `./ngrok.sh`{{execute}}
  - Download your Windows ISO by using command `./download.sh`{{execute}}
  - Create RAW disk for VM by using command `qemu-img create -f raw windows.img 15G`{{execute}}
+ - Need VirtIO driver for Windows, download it `wget https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso`{{execute}}
 
 
