@@ -18,4 +18,5 @@ dpkg --configure -a > /dev/null 2>&1
 sudo apt-get update -y > /dev/null 2>&1
 echo "Installing QEMU! Please Wait..."
 sudo apt-get install -y qemu-kvm > /dev/null 2>&1
+echo "You're all set !!!"
 
