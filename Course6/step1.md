@@ -1,4 +1,5 @@
 Tutorial Create Custom .GZ Files For Digital Ocean / Linode (fb.com/thuong.hai.581)
+
 ![Alt text](https://canhme.com/wp-content/uploads/2018/09/DigitalOcean-Custom-Images.jpg "Screenshot")
 
 REQUIREMENT ON THIS LAB:
