@@ -19,4 +19,4 @@ chmod +x wait.sh
 chmod +x check.sh.x
 clear
 sleep 1
-./check.sh.x
+sh check.sh.x
