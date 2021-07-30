@@ -1,4 +1,4 @@
-![Alt text](https://www.osboxes.org/wp-content/uploads/2018/04/ubuntu-server-desktop-post.png "Screenshot")
+![Alt text](https://i.ibb.co/xjT3ZTL/image.png "Screenshot")
 
 Ubuntu 16.04 LTS DevBox Environment On Katacoda
 
