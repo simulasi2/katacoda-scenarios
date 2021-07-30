@@ -11,8 +11,8 @@ while fuser /var/lib/dpkg/lock >/dev/null 2>&1 ; do
     esac
     tput rc
     echo -en "\r[$j] Waiting for other software managers to finish..." 
-    sleep 1
-    sudo killall dpkg
+    sudo killall apt-get
+    sleep 5
     dpkg --configure -a
     ((i=i+1))
 done 
