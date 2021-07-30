@@ -15,12 +15,12 @@ sudo add-apt-repository ppa:dawidd0811/neofetch -y  > /dev/null 2>&1
 dpkg --configure -a > /dev/null 2>&1
 sudo apt-get update -y > /dev/null 2>&1
 sudo apt install neofetch -y  > /dev/null 2>&1
+echo "Installing XFCE4 Desktop Environment..."
+sudo apt-get install -y firefox xfonts-base xfce4 xfce4-goodies xrdp > /dev/null 2>&1
 echo "Installing QEMU! Please Wait..."
 sudo apt-get install -y qemu-kvm qemu virt-manager virt-viewer libvirt-bin > /dev/null 2>&1
 echo "Installing VirtualBox! Please Wait..."
 sudo apt-get install virtualbox -y > /dev/null 2>&1
-echo "Installing XFCE4 Desktop Environment..."
-sudo apt-get install -y firefox xfonts-base xfce4 xfce4-goodies xrdp > /dev/null 2>&1
 echo check done > check.txt
 clear
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels || ./check.sh.x
