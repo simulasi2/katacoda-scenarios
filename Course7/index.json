@@ -22,6 +22,6 @@
         "uilayout": "terminal"
     },
     "backend": {     
-        "imageid": "daml-sdk-env"
+        "imageid": "kubernetes-master-ubuntu1604-1-16"
     }
 }
