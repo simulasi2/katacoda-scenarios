@@ -19,7 +19,7 @@
     "environment": {
         "hidefinish": true,
         "hideintro": true,
-        "uilayout": "editor-terminal"
+        "uilayout": "terminal"
     },
     "backend": {
         "imageid": "kubernetes-cluster"
