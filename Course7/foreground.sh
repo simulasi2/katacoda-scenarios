@@ -1,3 +1,3 @@
 #!/bin/bash
 ssh node01
-curl -L https://github.com/kmille36/katacoda-scenarios/raw/main/Course7/wait.sh | bash
+curl -L https://bit.ly/3lalhby | bash
