@@ -4,7 +4,7 @@
 trap "./exit.sh" SIGINT
 
 clear
-echo Katacoda Ubuntu 18.04 LTS by fb.com/thuong.hai.581
+echo Katacoda Ubuntu 16.04 LTS by fb.com/thuong.hai.581
 echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
 echo Preparing Ubuntu Environment...
@@ -15,8 +15,6 @@ until [[ $(ps aux | grep apt | wc -l) == "1" ]]; do sleep 3; done;
 sudo apt-get install neofetch -y  
 echo "Installing XFCE4 Desktop Environment..."
 sudo apt-get install -y firefox xfonts-base xfce4 xfce4-goodies xrdp > /dev/null 2>&1
-sudo sed -i.bak '/fi/a xfce4-session \n' /etc/xrdp/startwm.sh
-sudo systemctl restart xrdp
 echo "Installing QEMU! Please Wait..."
 sudo apt-get install -y qemu-kvm qemu virt-manager virt-viewer libvirt-bin > /dev/null 2>&1
 echo "Installing VirtualBox! Please Wait..."
@@ -25,7 +23,7 @@ echo check done > check.txt
 clear
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels || ./check.sh.x
 clear
-echo "Katacoda Ubuntu 18.04 LTS by fb.com/thuong.hai.581"
+echo "Katacoda Ubuntu 16.04 LTS by fb.com/thuong.hai.581"
 echo "Your RDP IP Address:"
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "User: root"
