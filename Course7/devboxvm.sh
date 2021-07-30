@@ -19,7 +19,7 @@ echo "Installing QEMU! Please Wait..."
 sudo apt-get install -y qemu-kvm qemu virt-manager virt-viewer libvirt-bin > /dev/null 2>&1
 echo "Installing VirtualBox! Please Wait..."
 sudo apt-get install virtualbox -y > /dev/null 2>&1
-echo "Installing XFCE4 Destop Environment..."
+echo "Installing XFCE4 Desktop Environment..."
 sudo apt-get install -y firefox xfonts-base xfce4 xfce4-goodies xrdp > /dev/null 2>&1
 echo check done > check.txt
 clear
