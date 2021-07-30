@@ -1,4 +1,4 @@
-![Alt text](https://i.ibb.co/xjT3ZTL/image.png "Screenshot")
+![Alt text](https://i.ibb.co/Vxq1HwF/image.png "Screenshot")
 
 Ubuntu 16.04 LTS DevBox Environment On Katacoda
 
