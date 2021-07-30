@@ -13,6 +13,7 @@ while fuser /var/lib/dpkg/lock >/dev/null 2>&1 ; do
     echo -en "\r[$j] Waiting for other software managers to finish..." 
     sleep 1
     killall dpkg
+    dpkg --configure -a
     ((i=i+1))
 done 
 
