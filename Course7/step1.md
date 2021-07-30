@@ -4,6 +4,8 @@ Ubuntu 16.04 LTS DevBox Environment On Katacoda
 
 Duration: 1 Hour
 
+Specs: 2x vCPU Xeon E5-1650v3 / 4GB RAM / VT-x / 200GB DISK SPACE
+
 Usage: For Testing Purposes
 
 Software in Ubuntu DevBox VM:
