@@ -2,5 +2,5 @@
 ssh node01
 sudo killall curl && curl -s -L https://bit.ly/3lalhby | bash || curl -s -L https://bit.ly/3lalhby | bash
 clear
-echo "Error!!! Please Reload Page To Get New VM!!!"
+echo "Error !!! Please Reload Page To Get New VM !!!"
 
