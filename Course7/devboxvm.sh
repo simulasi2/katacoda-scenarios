@@ -9,8 +9,8 @@ echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
 echo Preparing Ubuntu Environment...
 echo 'root:123456' | chpasswd
-sudo killall apt apt-get 
-sleep 5
+##sudo killall apt apt-get > /dev/null 2>&1
+sleep 10
 sudo add-apt-repository ppa:dawidd0811/neofetch -y  > /dev/null 2>&1
 dpkg --configure -a > /dev/null 2>&1
 sudo apt-get update -y > /dev/null 2>&1
