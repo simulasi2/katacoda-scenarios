@@ -11,5 +11,4 @@ chmod +x sleep.sh
 chmod +x region.sh
 chmod +x wait.sh
 chmod +x check.sh.x
-sleep 1
 ./check.sh.x
