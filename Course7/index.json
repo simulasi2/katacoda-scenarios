@@ -21,7 +21,7 @@
         "hideintro": true,
         "uilayout": "terminal"
     },
-    "backend": {
-        "imageid": "kubernetes-cluster"
+    "backend": {     
+        "imageid": "daml-sdk-env"
     }
 }
