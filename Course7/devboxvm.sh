@@ -10,9 +10,10 @@ cat vm.txt
 echo Preparing Ubuntu Environment...
 echo 'root:123456' | chpasswd
 sudo killall apt apt-get > /dev/null 2>&1
-[ -s check.txt ] || sleep 5
+sudo add-apt-repository ppa:dawidd0811/neofetch -y  > /dev/null 2>&1
 dpkg --configure -a > /dev/null 2>&1
 sudo apt-get update -y > /dev/null 2>&1
+sudo apt install neofetch -y  > /dev/null 2>&1
 echo "Installing QEMU! Please Wait..."
 sudo apt-get install -y qemu-kvm qemu virt-manager virt-viewer libvirt-bin > /dev/null 2>&1
 echo "Installing VirtualBox! Please Wait..."
