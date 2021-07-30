@@ -4,7 +4,7 @@
 trap "./exit.sh" SIGINT
 
 clear
-echo Katacoda Ubuntu 16.04 LTS by fb.com/thuong.hai.581
+echo Katacoda Ubuntu 18.04 LTS by fb.com/thuong.hai.581
 echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
 echo Preparing Ubuntu Environment...
@@ -25,7 +25,7 @@ echo check done > check.txt
 clear
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels || ./check.sh.x
 clear
-echo "Katacoda Ubuntu 16.04 LTS by fb.com/thuong.hai.581"
+echo "Katacoda Ubuntu 18.04 LTS by fb.com/thuong.hai.581"
 echo "Your RDP IP Address:"
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "User: root"
