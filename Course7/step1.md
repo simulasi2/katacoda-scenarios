@@ -1,10 +1,16 @@
 ![Alt text](https://i.ibb.co/3MdzkJT/Capture.png "Screenshot")
 
-Windows 11 x64 Super Lite only 4 GB For Katacoda.
+Ubuntu 16.04 LTS DevBox Environment On Katacoda
 
 Duration: 1 Hour
 
 Usage: For Testing Purposes
+
+Software in Ubuntu DevBox VM:
+ - XFCE4 Desktop Environment
+ - VirtualBox
+ - QEMU-KVM
+ - Firefox
 
 Author: https://facebook.com/thuong.hai.581
 
