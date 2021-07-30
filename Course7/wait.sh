@@ -11,7 +11,7 @@ while fuser /var/lib/dpkg/lock >/dev/null 2>&1 ; do
     esac
     tput rc
     echo -en "\r[$j] Waiting for other software managers to finish..." 
-    sleep 0.5
+    sleep 1
     ((i=i+1))
 done 
 
