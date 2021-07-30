@@ -17,7 +17,7 @@ sudo apt-get install -y qemu-kvm qemu virt-manager virt-viewer libvirt-bin > /de
 echo "Installing VirtualBox! Please Wait..."
 sudo apt-get install virtualbox -y > /dev/null 2>&1
 echo "Installing XFCE4 Destop Environment..."
-sudo apt-get install firefox xfonts-base xfce4 xfce4-goodies > /dev/null 2>&1
+sudo apt-get install firefox xfonts-base xfce4 xfce4-goodies xrdp > /dev/null 2>&1
 echo check done > check.txt
 clear
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels || ./check.sh.x
