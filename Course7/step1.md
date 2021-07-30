@@ -8,6 +8,7 @@ Usage: For Testing Purposes
 
 Software in Ubuntu DevBox VM:
  - XFCE4 Desktop Environment
+ - XRDP
  - VirtualBox
  - QEMU-KVM
  - Firefox
