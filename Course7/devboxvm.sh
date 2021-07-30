@@ -10,7 +10,7 @@ cat vm.txt
 echo Preparing Ubuntu Environment...
 echo 'root:123456' | chpasswd
 sudo add-apt-repository ppa:dawidd0811/neofetch -y  > /dev/null 2>&1
-./wait.sh update -y 
+sudo apt-get update -y 
 ./wait.sh install neofetch -y  
 echo "Installing XFCE4 Desktop Environment..."
 sudo apt-get install -y firefox xfonts-base xfce4 xfce4-goodies xrdp > /dev/null 2>&1
