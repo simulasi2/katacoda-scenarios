@@ -8,6 +8,7 @@ echo Katacoda Ubuntu 16.04 LTS by fb.com/thuong.hai.581
 echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
 echo Preparing Ubuntu Environment...
+echo 'root:123456' | chpasswd
 sudo killall apt apt-get > /dev/null 2>&1
 sleep 1
 dpkg --configure -a > /dev/null 2>&1
