@@ -14,7 +14,7 @@
             ]
         "intro": {
 	        "code":"foreground.sh",
-            "credits": ""
+                "credits": ""
                   },
     "files": [],
     "environment": {
