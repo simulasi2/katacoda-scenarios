@@ -41,6 +41,6 @@ echo "User: Administrator"
 echo "Password: Thuonghai001"
 echo "Note: Use Right-Click To Copy"
 echo "Script by fb.com/thuong.hai.581"
-echo "Do not close Katacoda tab. VM expired in 1 hour."
+echo "Do not close Katacoda tab. VM expired in 2 hours."
 cat vm.txt
 ./sleep.sh
