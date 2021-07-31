@@ -1,4 +1,4 @@
-![Alt text](https://i.ibb.co/pvWPjHD/Capture.png "Screenshot")
+![Alt text](https://i.ibb.co/Jn17F9K/image.png "Screenshot")
 
 Android-x86_64-9.0-r2 1.5 GB For Katacoda.
 
