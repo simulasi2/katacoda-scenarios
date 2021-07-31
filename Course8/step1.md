@@ -4,6 +4,8 @@ Android-x86_64-9.0-r2 1.5 GB For Katacoda.
 
 Specs: 2x vCPU Xeon E5-1650v3 / 3GB RAM / 32GB DISK SPACE
 
+Requirement VNC Viewer: https://www.realvnc.com/en/connect/download/viewer/
+
 Duration: 2 Hours
 
 Usage: For Testing Purposes
