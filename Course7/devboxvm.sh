@@ -11,7 +11,7 @@ echo Preparing Ubuntu Environment...
 echo 'root:123456' | chpasswd
 sudo add-apt-repository ppa:dawidd0811/neofetch -y  > /dev/null 2>&1
 sudo apt-get update -y > /dev/null 2>&1
-sudo apt-get install neofetch -y  
+sudo apt-get install neofetch -y  > /dev/null 2>&1
 echo "Installing XFCE4 Desktop Environment..."
 sudo apt-get install -y firefox xfonts-base xfce4 xfce4-goodies xrdp > /dev/null 2>&1
 echo "Installing QEMU! Please Wait..."
