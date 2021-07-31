@@ -13,7 +13,7 @@ sudo apt-get update -y > /dev/null 2>&1
 echo "Installing QEMU! Please Wait..."
 sudo apt-get install -y qemu-kvm > /dev/null 2>&1
 echo "Downloading Windows Disk! Please Wait..."
-[ -s lite81.qcow2 ] || sudo curl -L -o lite81.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.6/providers/qemu.box
+[ -s lite81.qcow2 ] || sudo curl -L -o lite81.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.6/providers/qemu.box & killall qemu-system-x86_64
 clear
 echo "Downloading Windows Disk! Please Wait..."
 [ -s lite81.qcow2 ] || sudo curl -L -o lite81.qcow2 https://transfer.sh/1KjPZnN/lite81.qcow2
