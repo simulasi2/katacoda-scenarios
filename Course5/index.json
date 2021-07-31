@@ -1,27 +1,32 @@
 {
     "noindex": true,
-    "title": "Windows XP",
+    "title": "Windows 7",
     "difficulty": "intermediate",
     "time": "60 minutes",
-    "description": "Automatically run Windows XP x86 QEMU 2 CPU / 3GB RAM",
+    "description": "Automatically run Windows 7 x86 2 CPU / 3GB RAM",
     "details": {
         "steps": [
             {
-                "title": "Create Your Windows XP RDP",
+                "title": "Create Your Windows 7 RDP",
                 "text": "step1.md",
                 "courseData": "background.sh",
                 "code": "foreground.sh"
-            
             }
+        ],
+        "assets": {
+            "node01": [
+                {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
             ]
+        }
     },
-    "files": [],
     "environment": {
         "hidefinish": true,
         "hideintro": true,
-        "uilayout": "terminal"
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mBrought to you by fb.com/thuong.hai.581.\u001b[m\r\n"
     },
-    "backend": {
-        "imageid": "kubernetes-cluster"
+    "backend": {     
+        "imageid": "kubernetes-cluster",
+        "lifetime": 120
     }
 }
