@@ -30,6 +30,6 @@
     },
     "backend": {
       "imageid": "hashicorp-hashistack-ent",
-      "lifetime": 1
+      "lifetime": 5
     }
 }
