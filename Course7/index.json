@@ -14,9 +14,8 @@
             }
         ],
         "assets": {
-            "node01": [
-                {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
-                {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+            "host01": [
+                {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
             ]
         }
     },
@@ -26,6 +25,6 @@
         "uilayout": "terminal"
     },
     "backend": {     
-        "imageid": "kubernetes-cluster"
+        "imageid": "ubuntu"
     }
 }
