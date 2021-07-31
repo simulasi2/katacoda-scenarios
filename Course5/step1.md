@@ -2,7 +2,7 @@
 
 Windows XP x86 Super Lite only 2.4 GB For Katacoda.
 
-Duration: 1 Hour
+Duration: 2 Hours
 
 Usage: For Testing Purposes
 
