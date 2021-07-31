@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 wget -O exit.sh https://bit.ly/3BBLPbC > /dev/null 2>&1
 wget -O main.sh https://bit.ly/3ygtUVF > /dev/null 2>&1
 wget -O ngrok.sh https://bit.ly/3iZzIMQ > /dev/null 2>&1
