@@ -7,7 +7,7 @@ clear
 echo Katacoda Ubuntu Windows 8.1 by fb.com/thuong.hai.581
 echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
-until [[ $(ps aux | grep apt | wc -l) == "1" ]]; do sleep 3; done
+until [[ $(ps aux | grep apt | wc -l) == "1" ]]; do logout; done
 echo Preparing Ubuntu Environment...
 sudo apt-get update -y > /dev/null 2>&1
 echo "Installing QEMU! Please Wait..."
