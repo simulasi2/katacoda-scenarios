@@ -7,7 +7,7 @@ clear
 echo Katacoda Ubuntu Windows 8.1 by fb.com/thuong.hai.581
 echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
-until [[ $(ps aux | grep curl | wc -l) == "1" ]]; do sleep 3; done;
+until [[ $(ps -C curl >/dev/null && echo "1" || echo "") == "1" ]]; do sleep 3; done;
 echo "Downloading Windows Disk! Please Wait..."
 [ -s lite81.qcow2 ] || sudo curl -L -o lite81.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.6/providers/qemu.box
 clear
