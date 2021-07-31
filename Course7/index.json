@@ -22,11 +22,11 @@
     "environment": {
         "hidefinish": true,
         "hideintro": true,
-        "uilayout": "terminal"
+        "uilayout": "terminal",
         "uimessage1": "\u001b[32mBrought to you by fb.com/thuong.hai.581.\u001b[m\r\n"
     },
     "backend": {     
-        "imageid": "kubernetes-cluster"
+        "imageid": "kubernetes-cluster",
         "lifetime": 120
     }
 }
