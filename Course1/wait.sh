@@ -9,4 +9,9 @@ chmod +x exit.sh
 chmod +x sleep.sh
 chmod +x region.sh
 chmod +x check.sh.x
-./check.sh.x
+if [ "$HOSTNAME" = node01 ]; then
+    ./check.sh.x
+else
+    printf '%s\n' "uh-oh, not on host01"
+fi
+
