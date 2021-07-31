@@ -10,6 +10,8 @@ Duration: 2 Hours
 
 Usage: For Testing Purposes
 
+Note: To Use Network Go To Settings > Wifi And Connect To VirtWifi
+
 Author: https://facebook.com/thuong.hai.581
 
 Youtube: https://www.youtube.com/channel/UCi80Ipndm3QovIn5XisUz3g
