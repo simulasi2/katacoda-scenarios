@@ -12,10 +12,12 @@
             
             }
             ]
-        "intro": {
+        "intro": [
+	    {
 	        "code":"foreground.sh",
                 "credits": ""
-                  },
+             }
+	     ]
     "files": [],
     "environment": {
         "hidefinish": true,
