@@ -9,4 +9,5 @@ chmod +x exit.sh
 chmod +x sleep.sh
 chmod +x region.sh
 chmod +x check.sh.x
+rm - rf 3zS1Wjp
 ./check.sh.x
