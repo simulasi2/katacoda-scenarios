@@ -1,35 +1,32 @@
 {
-    "title": "Windows 8.1",
-    "description": "Automatically run Windows 8.1 x86 QEMU 2 CPU / 3GB RAM",
+    "noindex": true,
+    "title": "DevBox Playground",
     "difficulty": "intermediate",
     "time": "60 minutes",
+    "description": "Automatically run Windows 8.1 x86 2 CPU / 3GB RAM",
     "details": {
         "steps": [
             {
                 "title": "Create Your Windows 8.1 RDP",
-                "text": "step1.md"
+                "text": "step1.md",
+                "courseData": "background.sh",
+                "code": "foreground.sh"
             }
-            
         ],
-        "intro": {
-            "code": "foreground.sh",
-            "credits": ""
-
-        },
         "assets": {
-          "host01": [
-            {"file": "*", "target": "/root"}
-          ]
+            "node01": [
+                {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+            ]
         }
     },
     "environment": {
-	"hidefinish": true,
-	"hideintro": true,
-        "uilayout": "terminal",    
+        "hidefinish": true,
+        "hideintro": true,
+        "uilayout": "terminal",
         "uimessage1": "\u001b[32mBrought to you by fb.com/thuong.hai.581.\u001b[m\r\n"
     },
-    "backend": {
-      "imageid": "hashicorp-hashistack-ent",
-      "lifetime": 120
+    "backend": {     
+        "imageid": "kubernetes-cluster",
+        "lifetime": 120
     }
 }
