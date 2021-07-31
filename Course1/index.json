@@ -20,6 +20,7 @@
         "hidefinish": true,
         "hideintro": true,
         "uilayout": "terminal"
+        "uimessage1": "\u001b[32mfb.com/thuong.hai.581.\u001b[m\r\n"
     },
     "backend": {
         "imageid": "kubernetes-cluster"
