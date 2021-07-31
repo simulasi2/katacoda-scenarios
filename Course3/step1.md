@@ -4,7 +4,7 @@ Windows 11 x64 Super Lite only 4 GB For Katacoda.
 
 Specs: 2x vCPU Xeon E5-1650v3 / 3GB RAM / 200GB DISK SPACE
 
-Duration: 1 Hour
+Duration: 2 Hours
 
 Usage: For Testing Purposes
 
