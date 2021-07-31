@@ -11,11 +11,15 @@
                 "text": "step1.md",
                 "courseData": "background.sh",
                 "code": "foreground.sh"
-            
             }
+        ],
+        "assets": {
+            "node01": [
+                {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+                {"file": "deploy.sh", "target": "/usr/local/bin/", "chmod": "+x"}
             ]
+        }
     },
-    "files": [],
     "environment": {
         "hidefinish": true,
         "hideintro": true,
