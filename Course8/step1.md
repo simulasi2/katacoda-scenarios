@@ -1,8 +1,8 @@
 ![Alt text](https://i.ibb.co/pvWPjHD/Capture.png "Screenshot")
 
-Windows 8.1 x86 Super Lite only 3.1 GB For Katacoda.
+Android-x86_64-9.0-r2 1.5 GB For Katacoda.
 
-Specs: 2x vCPU Xeon E5-1650v3 / 3GB RAM / 200GB DISK SPACE
+Specs: 2x vCPU Xeon E5-1650v3 / 3GB RAM / 32GB DISK SPACE
 
 Duration: 2 Hours
 
