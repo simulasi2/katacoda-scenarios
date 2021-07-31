@@ -13,7 +13,7 @@
             
         ],
         "intro": {
-	    "code": "foreground.sh",
+            "courseData": "foreground.sh",
             "credits": ""
 
         },
