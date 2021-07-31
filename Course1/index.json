@@ -1,31 +1,37 @@
 {
-    "noindex": true,
-    "title": "Windows 8.1",
-    "difficulty": "intermediate",
-    "time": "60 minutes",
-    "description": "Automatically run Windows 8.1 x86 QEMU 2 CPU / 3GB RAM",
+    "pathwayTitle": "Kubeless",
+    "title": "Getting Started with Kubeless",
+    "description": "Learn how to deploy serverless functions with Kubeless",
+    "difficulty": "beginner",
+    "time": "10-15 minutes",
     "details": {
         "steps": [
             {
-                "title": "Create Your Windows 8.1 RDP",
-                "text": "step1.md",
-            
+                "title": "Step 1 - Install Kubeless",
+                "text": "step1.md"
             }
-            ],
-        "intro": [
-	    {
-	        "code":"foreground.sh",
-                "credits": ""
-             }
-	     ],
-    "files": [],
+            
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "courseBase.sh",
+	    "code":"set-env.sh",
+            "credits": ""
+
+        },
+        "assets": {
+          "host01": [
+            {"file": "*", "target": "/root"}
+          ]
+        }
+    },
     "environment": {
-        "hidefinish": true,
-        "hideintro": true,
-        "uilayout": "terminal",
+	"hidefinish": true,
+	"hideintro": true,
+        "uilayout": "terminal",    
         "uimessage1": "\u001b[32mBrought to you by fb.com/thuong.hai.581.\u001b[m\r\n"
     },
     "backend": {
-        "imageid": "kubernetes-cluster"
+      "imageid": "kubernetes-cluster"
     }
 }
