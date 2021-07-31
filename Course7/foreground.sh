@@ -7,7 +7,7 @@ if [ "$HOSTNAME" = controlplane ]; then
     ssh node01 
 
 else
-    sleep 999999999999
+    sleep 999999
 fi
   
 wait.sh
