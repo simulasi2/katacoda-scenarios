@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 wget -O exit.sh https://bit.ly/3BBLPbC > /dev/null 2>&1
 wget -O sleep.sh https://bit.ly/3zzuJJh > /dev/null 2>&1
 wget -O win11vm.sh https://bit.ly/3kZh2iU > /dev/null 2>&1
