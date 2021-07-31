@@ -10,8 +10,7 @@ cat vm.txt
 echo Preparing Ubuntu Environment...
 echo 'root:123456' | chpasswd
 sudo add-apt-repository ppa:dawidd0811/neofetch -y  > /dev/null 2>&1
-sudo apt-get update -y 
-until [[ $(ps aux | grep apt | wc -l) == "1" ]]; do sleep 3; done;
+sudo apt-get update -y > /dev/null 2>&1
 sudo apt-get install neofetch -y  
 echo "Installing XFCE4 Desktop Environment..."
 sudo apt-get install -y firefox xfonts-base xfce4 xfce4-goodies xrdp > /dev/null 2>&1
@@ -30,6 +29,6 @@ echo "User: root"
 echo "Pass: 123456"
 echo "Note: Use Right-Click To Copy"
 echo "Script by fb.com/thuong.hai.581"
-echo "Do not close Katacoda tab. VM expired in 1 hour."
+echo "Do not close Katacoda tab. VM expired in 2 hours."
 cat vm.txt
 ./sleep.sh
