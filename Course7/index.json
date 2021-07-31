@@ -2,7 +2,7 @@
     "noindex": true,
     "title": "DevBox Playground",
     "difficulty": "intermediate",
-    "time": "60 minutes",
+    "time": "120 minutes",
     "description": "Automatically run Ubuntu 16.04 LTS DevBox 2 CPU / 4GB RAM",
     "details": {
         "steps": [
