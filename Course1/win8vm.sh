@@ -7,21 +7,16 @@ clear
 echo Katacoda Ubuntu Windows 8.1 by fb.com/thuong.hai.581
 echo Checking Available NGROK Tunnel... Please Wait...
 cat vm.txt
-until [[ $(ps -C curl >/dev/null && echo "1" || echo "") == "1" ]]; do sleep 3; done;
+until [[ $(ps aux | grep apt | wc -l) == "1" ]]; do sleep 3; done
+echo Preparing Ubuntu Environment...
+sudo apt-get update -y > /dev/null 2>&1
+echo "Installing QEMU! Please Wait..."
+sudo apt-get install -y qemu-kvm > /dev/null 2>&1
 echo "Downloading Windows Disk! Please Wait..."
 [ -s lite81.qcow2 ] || sudo curl -L -o lite81.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.0.6/providers/qemu.box
 clear
 echo "Downloading Windows Disk! Please Wait..."
 [ -s lite81.qcow2 ] || sudo curl -L -o lite81.qcow2 https://transfer.sh/1KjPZnN/lite81.qcow2
-clear
-cat vm.txt
-echo Preparing Ubuntu Environment...
-sudo killall apt apt-get > /dev/null 2>&1
-sleep 1
-dpkg --configure -a > /dev/null 2>&1
-sudo apt-get update -y > /dev/null 2>&1
-echo "Installing QEMU! Please Wait..."
-sudo apt-get install -y qemu-kvm > /dev/null 2>&1
 clear
 availableRAMcommand="free -m | tail -2 | head -1 | awk '{print \$7}'"
 availableRAM=$(echo $availableRAMcommand | bash)
