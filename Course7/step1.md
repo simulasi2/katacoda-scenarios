@@ -2,7 +2,7 @@
 
 Ubuntu 16.04 LTS DevBox Environment On Katacoda
 
-Duration: 2 Hour
+Duration: 2 Hours
 
 Specs: 2x vCPU Xeon E5-1650v3 / 4GB RAM / VT-x / 200GB DISK SPACE
 
