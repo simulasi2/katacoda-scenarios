@@ -1,0 +1,56 @@
+{
+    "pathwayTitle": "Kubeless",
+    "title": "Getting Started with Kubeless",
+    "description": "Learn how to deploy serverless functions with Kubeless",
+    "difficulty": "beginner",
+    "time": "10-15 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1 - Install Kubeless",
+                "text": "step1.md"
+            },
+            {
+                "title": "Step 2 - Deploy a Python Function",
+                "text": "step2.md"
+            },
+            {
+                "title": "Step 3 - Call The Function",
+                "text": "step3.md"
+            },
+            {
+                "title": "Step 4 - View The Logs, Describe and Update a Function",
+                "text": "step4.md"
+            },
+            {
+                "title": "Step 5 - Create a Node Function",
+                "text": "step5.md"
+            },
+            {
+		"title": "Step 6 - Delete Function",
+		"text": "step6.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "courseBase.sh",
+	    "code":"set-env.sh",
+            "credits": ""
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+          "host01": [
+            {"file": "*", "target": "/root"}
+          ]
+        }
+    },
+    "environment": {
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+      "imageid": "kubeless"
+    }
+}
